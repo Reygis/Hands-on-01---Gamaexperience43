@@ -37,6 +37,9 @@ main {
     height: auto;
     margin: 0 3%;
 }
+.col-1 {
+    width: 80%;
+}
 .col-2 {
     width: 400px;
 }
@@ -114,7 +117,9 @@ input, #mensagem {
     padding-bottom: 5rem;
 }
 .center {
-    align-self:flex-start;
+    align-self:center;
+    text-align:center;
+    width: 100%;
 }
 
 /* paragrafos e textos */
@@ -134,14 +139,30 @@ input, #mensagem {
    color: #009688;
    font-size: 1.5rem;
 }
+.h2-rosa {
+    font-weight: 500;
+    color: #FF4081;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+}
 .h3-rosa {
     font-weight: 700;
     color: #FF4081;
     font-size: 1.5rem;
 }
+.h2-verde {
+    font-weight: 700;
+    color: #009688;
+    font-size: 1.8rem;
+}
 .p-center {
     text-align: center;
     font-size: 17px;
+}
+#p-data {
+    text-align: center;
+    font-size: 18px;
+    color: #9D9D9D;
 }
 .p-left {
     font-size: 18px;
@@ -153,6 +174,16 @@ input, #mensagem {
 #box-dark-p {
     width: 300px;
     height: 180px;
+    background: #C4C4C4;
+}
+#box-dark-g {
+    width: 400px;
+    height: 200px;
+    background: #C4C4C4;
+}
+#box-full {
+    width: 100%;
+    height: 430px;
     background: #C4C4C4;
 }
 
