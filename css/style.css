@@ -71,6 +71,34 @@ img {
     flex-grow: 2;
 } 
 
+
+/* formulário contato */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    border: none;
+}
+
+input, #mensagem {
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 0.25rem 1rem;
+    margin-bottom: 0.85rem;
+}
+
+#mensagem{
+    height: 180px;
+    resize: none;    
+}
+
 /* posicionamento */
 
 .left {
