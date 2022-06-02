@@ -1,0 +1,25 @@
+header{
+    background: #2E948A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 3%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+header a img {
+    height: 4rem;
+    width: auto;
+}
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-header {
+    padding-left: 1rem;
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: 700;
+}

@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.link-branco-400 {
+    color: #fff;
+}
+.link-rosa-400 {
+    color: #FF4081;
+}
+button {
+    border-radius: 3rem;
+    padding: 0.6rem 2rem;
+}
+.btn-footer {
+    border: 1px solid #fff;
+    background: #419488; 
+    margin-top: 3px;
+    
+}
+.btn-branco-rosa {
+    border: 2px solid #FF4081;
+    background: #fff;    
+}
+.btn-rosa-branco {
+    border: none;
+    background: #FF4081;
+}
+.btn-verde-branco {
+    border: none;
+    background: #2E948A;
+}
+a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,164 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');  
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* containers e box */
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+    width: 100%;
+}
+#back-branco {
+    background: #fff;
+}
+#back-cinza {
+    background: #f7f7f7;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 3%;
+}
+.col-2 {
+    width: 400px;
+}
+.col-3 {
+    width: 300px;
+    align-items: center;
+}
+
+.card-mini {
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    height: auto;
+    margin: 2rem 0 0 3%;
+}
+
+.card-mini img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.item {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.grow2 {
+    flex-grow: 2;
+} 
+
+/* posicionamento */
+
+.left {
+    align-self:flex-start;
+    padding-left: 3rem;
+    width: 100%;
+}
+.left-nopad{
+    align-self:flex-start;
+    
+}
+.pad-bt {
+    padding-bottom: 5rem;
+}
+.center {
+    align-self:flex-start;
+}
+
+/* paragrafos e textos */
+
+.h1-rosa {
+    font-weight: 700;
+    color: #FF4081;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+}
+.h2-verde {
+    font-weight: 700;
+    color: #009688;
+    font-size: 1.8rem;
+}
+#h2-verde-smal {
+   color: #009688;
+   font-size: 1.5rem;
+}
+.h3-rosa {
+    font-weight: 700;
+    color: #FF4081;
+    font-size: 1.5rem;
+}
+.p-center {
+    text-align: center;
+    font-size: 17px;
+}
+.p-left {
+    font-size: 18px;
+    margin-left: 2rem;
+}
+
+/* caixas cinzas --  linhas  --- player */
+
+#box-dark-p {
+    width: 300px;
+    height: 180px;
+    background: #C4C4C4;
+}
+
+#linha-cinza {
+    width: 90%;
+    border-bottom: 5px solid #C4C4C4;
+}
+
+#player {
+    width: 400px;
+    height: 260px;
+    border: 3px solid #8E8E8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player-circle {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:50px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    * {
+        font-size: small;
+    }    
+    .hiden {
+        display: none;
+    }
+}
