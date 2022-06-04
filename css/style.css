@@ -214,11 +214,17 @@ input, #mensagem {
     * {
         font-size: small;
     }    
-    .hiden {
-        display: none;
-    }
+
     #box-dark-g, #box-dark-p, #player {
         width: 260px;
         height: 130px;
+    }
+    .card, .item {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .hiden {
+        display: none;
     }
 }
